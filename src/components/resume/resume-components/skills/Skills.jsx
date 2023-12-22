@@ -177,7 +177,7 @@ export default function Skills() {
             </h1>
             <h1 className="lg:flex text-4xl gap-10 text-left">
               <SiTailwindcss />
-              <h1>Tailwind CSS</h1>
+              <h1>Tailwind</h1>
             </h1>
             <h1 className="lg:flex text-4xl gap-10 text-left">
               <BsBootstrap />
