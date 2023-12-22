@@ -2,10 +2,34 @@ import loyolaLogo from "../../../assets/images/loyola.png";
 import northwesternLogo from "../../../assets/images/northwestern.png";
 
 export default function Education() {
+  const handleDownloadResume = () => {
+    const resumeUrl =
+      "https://docs.google.com/document/d/11-E3Onwaan2zhkEJjA14cCV1FI9QSYTqLkqO7UGp_0c/edit";
+
+    const link = document.createElement("a");
+    link.href = resumeUrl;
+    link.target = "_blank";
+    link.download = "Thomas_McManus_Resume";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section className="m-5">
       <div>
-        <h3 className="text-5xl py-1 flex justify-center">Education</h3>
+        <h3 className="text-5xl py-1 flex justify-center">Resume</h3>
+      </div>
+      <div className="text-center mt-5">
+        <button
+          className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded mb-5"
+          onClick={handleDownloadResume}
+        >
+          Download Resume
+        </button>
+      </div>
+      <div>
+        <h3 className="text-3xl py-1 flex justify-center">Education</h3>
       </div>
       <div className="lg:flex gap-10">
         <div className="flex-1 text-center shadow-lg p-10 rounded-xl my-10 bg-white">

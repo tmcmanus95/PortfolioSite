@@ -22,9 +22,17 @@ export default function Navbar() {
           <li>
             <Link
               to="/resume"
-              className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-4 py-2 mb-4 sm:mb-0 sm:ml-8 rounded-md"
+              className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-4 py-2 mb-4 mr-2 sm:mb-0 sm:ml-8 rounded-md"
             >
               Resume
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/contact"
+              className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-4 py-2 mb-4 mr-2 sm:mb-0 sm:ml-8 rounded-md"
+            >
+              Contact
             </Link>
           </li>
         </ul>
