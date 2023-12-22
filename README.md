@@ -4,9 +4,12 @@ Welcome to the github repository for my portfolio site! This website was made us
 
 # Porfolio Link
 
+https://friendly-profiterole-0dac5f.netlify.app/
+
 # Contributions
 
-The basic structure of this portfolio site was based off [developedbyed's template](https://www.youtube.com/watch?v=k-Pi5ZMxHWY)
+- The basic structure of this portfolio site was based off [developedbyed's template](https://www.youtube.com/watch?v=k-Pi5ZMxHWY)
+- The infinite horizontal scroll animation based off of [Kevin Powells](https://www.youtube.com/watch?v=iLmBy-HKIAw) animation.
 
 Image Sources:
 
