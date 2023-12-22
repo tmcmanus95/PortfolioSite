@@ -5,6 +5,7 @@ import "./index.css";
 import Home from "./components/home/Home.jsx";
 import Resume from "./components/resume/Resume.jsx";
 import AboutMe from "./components/aboutme/AboutMe.jsx";
+import ContactForm from "./components/contact/Contact.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "/aboutme",
         element: <AboutMe />,
+      },
+      {
+        path: "/contact",
+        element: <ContactForm />,
       },
     ],
   },
