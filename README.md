@@ -15,6 +15,7 @@ Image Sources:
 
 - [Loyola Logo](https://www.luc.edu/umc/brandstandards/graphicidentity/downloads/)
 - [Northwestern Logo](https://www.oneplanetnetwork.org/organisations/northwestern-university)
+- [FavIcon](https://www.flaticon.com/free-icon/curriculum_1319297?term=portfolio&related_id=1319297)
 
 # License
 
