@@ -23,7 +23,7 @@ export default function Selfie() {
           <AiFillLinkedin className="cursor-pointer" />
         </a>
         <a
-          href="https://twitter.com/home"
+          href="https://twitter.com/ThomasMcMa93752"
           target="_blank"
           rel="noopener noreferrer"
         >
