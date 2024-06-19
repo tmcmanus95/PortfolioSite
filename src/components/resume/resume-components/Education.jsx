@@ -4,7 +4,7 @@ import northwesternLogo from "../../../assets/images/northwestern.png";
 export default function Education() {
   const handleDownloadResume = () => {
     const resumeUrl =
-      "https://docs.google.com/document/d/11-E3Onwaan2zhkEJjA14cCV1FI9QSYTqLkqO7UGp_0c/edit";
+      "https://docs.google.com/document/d/1tptO5JSg_sruqwv8gwkk8PruKRsKqwNhkKqfr_ZQUF4/edit";
 
     const link = document.createElement("a");
     link.href = resumeUrl;
