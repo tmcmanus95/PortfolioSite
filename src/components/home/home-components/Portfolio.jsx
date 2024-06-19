@@ -3,6 +3,8 @@ import compoundle from "../../../assets/images/compoundlegradient.png";
 import lexipal from "../../../assets/images/lexipalgradient.png";
 import loremIpsong from "../../../assets/images/loremipsonggradient.png";
 import bartLB from "../../../assets/images/bartlebygradient.png";
+import bubblydb from "../../../assets/images/bubblydb.png";
+
 import wordWorms from "../../../assets/images/wordwormsgradient.png";
 import binarySearchJourney from "../../../assets/images/binarysearchgradient.png";
 
@@ -34,6 +36,28 @@ export default function Porfolio() {
               </p>
             </div>
             <div className="absolute inset-0 flex flex-col items-center justify-end p-4  bg-opacity-80 transition-opacity opacity-0 group-hover:opacity-100 text-white">
+              <p className="text-sm mt-5">MongoDB | React | Node.js | Render</p>
+            </div>
+          </a>
+        </div>
+        <div className="basis-1/3 flex-1">
+          <a
+            href="https://ai-aac-db2.onrender.com/"
+            target="_blank"
+            className="group block overflow-hidden rounded-lg transform transition-transform duration-300 hover:scale-110 hover:shadow-lg"
+          >
+            <img
+              src={bubblydb}
+              className="rounded-lg object-cover border-solid border-2 border-black"
+              width={"100%"}
+              height={"100%"}
+              layout="responsive"
+            />
+            <div className="absolute inset-0 flex flex-col items-center justify-center bg-transparent">
+              <h2 className="text-xl font-semibold mb-5">Bubbles</h2>
+              <p className="text-sm">Sparkling Water Rating Database</p>
+            </div>
+            <div className="absolute inset-0 flex flex-col items-center justify-end p-4  bg-opacity-80 transition-opacity opacity-0 group-hover:opacity-100 ">
               <p className="text-sm mt-5">MongoDB | React | Node.js | Render</p>
             </div>
           </a>
