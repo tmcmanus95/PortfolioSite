@@ -62,7 +62,7 @@ export default function Porfolio() {
             </div>
           </a>
         </div>
-        <div className="basis-1/3 flex-1">
+        {/* <div className="basis-1/3 flex-1">
           <a
             href="https://compoundle-0dc961311800.herokuapp.com/"
             target="_blank"
@@ -85,7 +85,7 @@ export default function Porfolio() {
               <p className="text-sm mt-5">Node.js | SQL | Heroku </p>
             </div>
           </a>
-        </div>
+        </div> */}
         <div className="basis-1/3 flex-1 border-solid">
           <a
             href="https://chicago-august-20231.github.io/Word-Frequency-Calculator/"
@@ -191,7 +191,7 @@ export default function Porfolio() {
             </div>
           </a>
         </div>
-        {/* <div className="basis-1/3 flex-1">
+        <div className="basis-1/3 flex-1">
           <a
             href="https://tmcmanus95.github.io/chat-bartlb/"
             target="_blank"
@@ -214,7 +214,7 @@ export default function Porfolio() {
               <p className="text-sm mt-5">JavaScript | CSS</p>
             </div>
           </a>
-        </div> */}
+        </div>
       </div>
     </section>
   );
