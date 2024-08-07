@@ -15,7 +15,7 @@ export default function Porfolio() {
         <h3 className="text-4xl text-center py-1">Portfolio</h3>
         <p className="text-md py-5 leading-8 text-gray-800"></p>
       </div>
-      <div className="flex flex-col gap-10 py-10  lg:flex-row lg:flex-wrap">
+      <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
         <div className="basis-1/3 flex-1">
           <a
             href="https://ai-aac-db2.onrender.com/"
@@ -31,7 +31,7 @@ export default function Porfolio() {
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center bg-transparent text-white">
               <h2 className="text-xl font-semibold mb-5">Talker</h2>
-              <p className="text-sm">
+              <p className="text-xs text-center md:p-0 p-2">
                 AI-Powered Augmentative and Alternative Communication Device
               </p>
             </div>
@@ -101,7 +101,7 @@ export default function Porfolio() {
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center bg-transparent">
               <h2 className="text-xl font-semibold text-black mb-5">LexiPal</h2>
-              <p className="text-sm items-center mx-auto max-w-xl">
+              <p className="text-sm  text-center md:p-0 p-2">
                 Optimize ESL learning by visualizing the frequency of English
                 word usage.
               </p>
@@ -128,7 +128,7 @@ export default function Porfolio() {
               <h2 className="text-xl font-semibold text-black mb-5">
                 Lorem Ipsong{" "}
               </h2>
-              <p className="text-sm">
+              <p className="text-sm text-center md:p-0 p-2">
                 Generate placeholder text composed of commonly used words by
                 genre.
               </p>
@@ -206,7 +206,7 @@ export default function Porfolio() {
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center bg-transparent text-white">
               <h2 className="text-xl font-semibold mb-5">Chat BartLB</h2>
-              <p className="text-sm">
+              <p className="text-sm text-center md:p-0 p-2">
                 Parody of Chat GPT based on "Bartleby, the Scrivener."
               </p>
             </div>
